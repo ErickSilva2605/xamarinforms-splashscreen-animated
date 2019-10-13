@@ -67,6 +67,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork%402x" />
+    <BundleResource Include="Resources\data.json" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcons-Vikings.appiconset\Contents.json">
@@ -128,7 +129,10 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>3.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.848062" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -137,5 +141,26 @@
       <Project>{CC6C7D54-CC4C-42A2-ABD4-B1F8D52CD922}</Project>
       <Name>SplashScreenAnimation</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_6.png" />
   </ItemGroup>
 </Project>

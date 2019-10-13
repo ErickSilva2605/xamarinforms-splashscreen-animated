@@ -10,7 +10,7 @@ namespace SplashScreenAnimation
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new SplashPage());
         }
 
         protected override void OnStart()
