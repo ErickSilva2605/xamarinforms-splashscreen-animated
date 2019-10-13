@@ -22,7 +22,7 @@
                 FlexLayout.AlignSelf="Stretch"
                 HorizontalOptions="FillAndExpand"
                 ImageAssetsFolder="images/"
-                Duration="0:0:3"
+                Duration="0:0:4"
                 OnFinish="AnimationView_OnFinish">
             </forms:AnimationView>
         </Grid>
