@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Lottie.Forms.iOS.Renderers;
 using UIKit;
 
 namespace SplashScreenAnimation.iOS
@@ -23,6 +24,10 @@ namespace SplashScreenAnimation.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            //Iniciando o o Lottie
+            AnimationViewRenderer.Init();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
